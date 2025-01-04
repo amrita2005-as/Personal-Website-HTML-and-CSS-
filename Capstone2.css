@@ -1,0 +1,117 @@
+.wholebg {
+    background: #121212;
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #1f1c2c, #928dab, #15a8d1, #0072ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+    background-image: url("./udemy web dev/sun-tornado.svg");
+    background-size : 5000px;
+}
+
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1, h2, h3 {
+    color: #000000; /* Neon green accent */
+    text-shadow: 0 0 10px #0008f9;
+}
+
+
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.font2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #162030;
+}
+
+.font3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gradient-background{
+    position: relative;
+    bottom: 60px  ;
+}
+
+.nav-link{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #ffffff; 
+    text-shadow: 0 0 10px #d2ea34;
+}
+
+.hor{
+    border: none; 
+    height: 15px; 
+    background-color: #162030; 
+    width: 50%; 
+    margin: 20px auto; 
+    border-radius: 5px; 
+}
+
+.wholebg2{
+    background: #121212;
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #1f1c2c, #928dab, #00c6ff, #0072ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    background-image: url("./udemy web dev/sun-tornado.svg");
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.lead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(41, 34, 34);
+    font-weight:450;
+    font-size: 20px;
+}
+
+.flex-column{
+    position: relative;
+    left: 700px;
+}
+
+.font4{
+    font-size: large;
+    color: rgb(23, 23, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.down{
+    position: relative;
+    top: 100px;
+    gap: 100px;
+    font-family :'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.size{
+    font-size: 15px;
+}
+
+.imgsize{
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+}
+
+p{
+    font-size: large;
+}
